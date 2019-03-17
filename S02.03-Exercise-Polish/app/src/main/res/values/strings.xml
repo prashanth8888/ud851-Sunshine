@@ -27,6 +27,9 @@
     <!--Used in overflow menu to refresh weather data-->
     <string name="action_refresh">Refresh</string>
 
+    <!--Used for displaying the error messages when weather data is fetched-->
+    <string name="weather_fetch_error_message">Error while fetching weather data</string>
+
     <!--TODO (1) Add a string resource for your error message-->
 
 
