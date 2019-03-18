@@ -120,6 +120,7 @@ public class MainActivity extends AppCompatActivity implements ForecastAdapterOn
         Context context = this;
         Class destinationClass = DetailActivity.class;
         Intent intentToStartDetailActivity = new Intent(context, destinationClass);
+        intentToStartDetailActivity.putExtra("WeatherData", weatherForDay);
         startActivity(intentToStartDetailActivity);
     }
 
